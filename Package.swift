@@ -17,7 +17,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/Flipboard/FLAnimatedImage",
-            .upToNextMajor(from: "1.0.0")
+            .branch("master")
         )
     ],
     targets: [
